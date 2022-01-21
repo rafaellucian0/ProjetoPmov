@@ -1,9 +1,9 @@
 # ProjetoPmov
-##Integrantes: 
-###Leonam de Oliveira Silva
-###Luiz Henrique Vicente Monteiro
-###Marcus Vinicius Correia Alencar
-###Rafael Luciano Lima da Silva
+## Integrantes: 
+### Leonam de Oliveira Silva
+### Luiz Henrique Vicente Monteiro
+### Marcus Vinicius Correia Alencar
+### Rafael Luciano Lima da Silva
 
-##Turma: 
-###914-A
+## Turma: 
+### 914-A
