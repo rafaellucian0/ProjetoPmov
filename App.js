@@ -70,7 +70,7 @@ export default function App() {
   const alerta = () =>{
     Alert.alert(
       'A matéria não será adicionada se:',
-      'Alguma caixa de texto ficar vazia ou o nome da matéria for apenas um número',
+      '- Alguma caixa de texto estiver vazia.\n- O nome da matéria for apenas um número.\n- A quantidade de horas se iniciar com uma letra.',
       [
         {
           text: 'Concluído',
@@ -112,7 +112,7 @@ export default function App() {
           value={horas}
           placeholder="Digite as horas de estudo"
       />
-      <TouchableOpacity style={{alignItems: "center", backgroundColor: "black", padding: 20}} onPress={()=>{addMateriaFromService()}}><Text style={{color:"white", fontSize:17}}>Adicionar Matéria</Text></TouchableOpacity>
+      <TouchableOpacity style={{marginTop: 10, alignItems: "center", backgroundColor: "black", padding: 20}} onPress={()=>{addMateriaFromService()}}><Text style={{color:"white", fontSize:17}}>Adicionar Matéria</Text></TouchableOpacity>
       
       </View>
     )

@@ -14,7 +14,7 @@ const addMateria = async (id, title, horas) => {
         const disciplinasStr = await AsyncStorage.getItem("disciplinas");
         let disciplinas = JSON.parse(disciplinasStr);
         
-        if(title!=="" && horas !=="" && isNaN(title)){
+        if(title!=="" && horas !=="" && isNaN(title) && !isNaN(horas[0]) && isNaN(title[0]) && isNaN(title[1]) && isNaN(title[2]) ){
         if(disciplinas === null || disciplinas.length<1){
             disciplinas=[
                 { "id": "1", "title": "Português", "horas": "2 horas" },
